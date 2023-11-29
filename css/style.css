@@ -1554,6 +1554,8 @@ form label {
 
 #clients img {
     transition: all 0.4s ease-in-out;
+    max-width: 200%; /* Make sure images don't overflow their containers */
+    height: auto; /* Maintain image aspect ratio */
 }
  
 #carouselExampleSlidesOnly .carousel-item {
