@@ -230,6 +230,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
+  height: 80vh;
 }
 
 .fh5co-bg {
@@ -247,6 +248,10 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 992px) {
   .fh5co-video {
     height: 450px;
+  }
+
+  .fh5co-bg{
+    height: 80vh;
   }
 }
 .fh5co-video a {
@@ -313,13 +318,13 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: #012b51;
-  background: -moz-linear-gradient(-45deg, #012b51 0%, rgba(255, 255, 255, 0.1) 100%);
+  background: #2079c7;
+  background: -moz-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.1) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, rgba(0, 87, 137, 0.1)));
-  background: -webkit-linear-gradient(-45deg, #012b51 0%, rgba(255, 255, 255, 0.1) 100%);
-  background: -o-linear-gradient(-45deg, #012b51 0%, rgba(255, 255, 255, 0.1).1) 100%);
-  background: -ms-linear-gradient(-45deg, #012b51 0%, rgba(0, 87, 137, 0.1) 100%);
-  background: linear-gradient(135deg, #012b51 0%, rgba(0, 87, 137, 0.1) 100%);
+  background: -webkit-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.1) 100%);
+  background: -o-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.1).1) 100%);
+  background: -ms-linear-gradient(-45deg, #2079c7 0%, rgba(0, 87, 137, 0.1) 100%);
+  background: linear-gradient(135deg, #2079c7 0%, rgba(0, 87, 137, 0.1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#012b51', endColorstr='#005789', GradientType=1 );
 }
 .fh5co-cover > .fh5co-container {
@@ -349,7 +354,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover-sm {
-    height: 400px;
+    height: 40px;
   }
 }
 .fh5co-cover.fh5co-cover-sm .display-t,
@@ -641,12 +646,12 @@ form label {
 .fh5co-bg-section {
   position: relative;
   background: #012b51;
-  background: -moz-linear-gradient(-45deg, #012b51 0%, rgba(255, 255, 255, 0.7) 100%);
+  background: -moz-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.7) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, rgba(0, 87, 137, 0.7)));
-  background: -webkit-linear-gradient(-45deg, #012b51 0%, rgba(255, 255, 255, 0.7) 100%);
-  background: -o-linear-gradient(-45deg, #012b51 0%, rgba(255, 255, 255, 0.7).7) 100%);
-  background: -ms-linear-gradient(-45deg, #012b51 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: linear-gradient(135deg, #012b51 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: -webkit-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.7) 100%);
+  background: -o-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.7).7) 100%);
+  background: -ms-linear-gradient(-45deg, #2079c71 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: linear-gradient(135deg, #2079c7 0%, rgba(0, 87, 137, 0.7) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#012b51', endColorstr='#005789', GradientType=1 );
 }
 .fh5co-bg-section .overlay {
@@ -1072,13 +1077,13 @@ form label {
 }
 
 #fh5co-started {
-  background: #012b51;
-  background: -moz-linear-gradient(-45deg, #012b51 0%, rgba(255, 255, 255, 0.7) 100%);
+  background: #2079c7;
+  background: -moz-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.7) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, rgba(0, 87, 137, 0.7)));
-  background: -webkit-linear-gradient(-45deg, #012b51 0%, rgba(255, 255, 255, 0.7) 100%);
-  background: -o-linear-gradient(-45deg, #012b51 0%, rgba(255, 255, 255, 0.7).7) 100%);
-  background: -ms-linear-gradient(-45deg, #012b51 0%, rgba(0, 87, 137, 0.7) 100%);
-  background: linear-gradient(135deg, #012b51 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: -webkit-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.7) 100%);
+  background: -o-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.7).7) 100%);
+  background: -ms-linear-gradient(-45deg, #2079c7 0%, rgba(0, 87, 137, 0.7) 100%);
+  background: linear-gradient(135deg, #2079c7 0%, rgba(0, 87, 137, 0.7) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#012b51', endColorstr='#005789', GradientType=1 );
 }
 #fh5co-started .fh5co-heading h2 {
@@ -1559,7 +1564,7 @@ form label {
 }
  
 #carouselExampleSlidesOnly .carousel-item {
-  max-height: 100vh; /* Set your desired maximum height using viewport height (vh) units */
+  max-height: 80vh; /* Set yor desired maximum height using viewport height (vh) units */
 }
 
 #carouselExampleSlidesOnly .carousel-item img {
@@ -1585,11 +1590,13 @@ form label {
   display: inline;
 }
 
-.nav > .nav-header > .nav-title {
-  display: inline-block;
-  font-size: 22px;
-  color: #fff;
-  padding: 10px 10px 10px 10px;
+.nav > .nav-header > .nav-title > img{
+ /* find suitable value for you */
+display: block;
+max-width: 12vw ; 
+padding-top: 5%;
+
+ 
 }
 
 .nav > .nav-btn {
@@ -1607,6 +1614,7 @@ form label {
   padding: 13px 10px 13px 10px;
   text-decoration: none;
   color: #efefef;
+  font-size: small;
 }
 
 .nav > .nav-links > a:hover {
@@ -1623,13 +1631,24 @@ form label {
     position: absolute;
     left: 0px;
     top: 0px;
+    margin-bottom: 20px;
+    z-index: 11000;
   }
   .nav > .nav-btn > label {
     display: inline-block;
     width: 50px;
     height: 50px;
     padding: 13px;
+    margin-bottom: 30px;
   }
+
+
+  .overlay-text {
+
+    font-size: 50%;
+  }
+
+
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
   }
@@ -1640,29 +1659,52 @@ form label {
     border-top: 2px solid #eee;
   }
   .nav > .nav-links {
-    position: absolute;
+    position: fixed;
     display: block;
-    width: 100%;
-    background-color: rgba(38, 128, 232, 0.9);;
-    height: 0px;
+    width: 50%;
+    background-color: rgba(4, 19, 36, 1);;
+    height: 120vh
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 50px;
+    bottom: 0;
+    top :0 ;
     left: 0px;
-    z-index: 15;
+    z-index: 1000;
   }
   .nav > .nav-links > a {
     display: block;
     width: 100%;
+
+  }
+
+  #toplink {
+      margin-top: 40px;
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
     width: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
+    height: 100vh;
+    width: 50%;
     left: 0;
     overflow-y: auto;
+
+
+    
   }
+
+  .nav > .nav-header > .nav-title > img{
+    /* find suitable value for you */
+   display: block;
+   max-width: 29vw ; 
+   padding-top: 5%;
+   
+    
+   }
+
+
+
+  
 }
 
 
