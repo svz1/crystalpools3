@@ -11,9 +11,8 @@
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  
+  
   line-height: 1.7;
   color: #828282;
   background: #fff;
@@ -318,13 +317,13 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: #2079c7;
-  background: -moz-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.1) 100%);
+  background: #0e1239;
+  background: -moz-linear-gradient(-45deg, #0e1239 0%, rgba(255, 255, 255, 0.05) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, rgba(0, 87, 137, 0.1)));
-  background: -webkit-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.1) 100%);
-  background: -o-linear-gradient(-45deg, #2079c7 0%, rgba(255, 255, 255, 0.1).1) 100%);
-  background: -ms-linear-gradient(-45deg, #2079c7 0%, rgba(0, 87, 137, 0.1) 100%);
-  background: linear-gradient(135deg, #2079c7 0%, rgba(0, 87, 137, 0.1) 100%);
+  background: -webkit-linear-gradient(-45deg, #0e1239 0%, rgba(255, 255, 255,0.05) 100%);
+  background: -o-linear-gradient(-45deg, #0e1239 0%, rgba(255, 255, 255, 0.05)0.05) 100%);
+  background: -ms-linear-gradient(-45deg, #0e1239 0%, rgba(0, 87, 137, 0.05) 100%);
+  background: linear-gradient(135deg, #0e1239 0%, rgba(0, 87, 137, 0.05) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#012b51', endColorstr='#005789', GradientType=1 );
 }
 .fh5co-cover > .fh5co-container {
@@ -1578,12 +1577,12 @@ form label {
 }
 
 .nav {
-  height: 50px;
+  height: 90px;
   width: 100%;
-  justify-content: space-between;
-  background-color:rgba(77, 77, 77, 0.0);
+  justify-content:space-around ; 
+  background-color:rgba(0, 0, 0, 0.3);
   position: absolute;
-  z-index: 12
+  z-index: 12 
 }
 
 .nav > .nav-header {
@@ -1593,8 +1592,8 @@ form label {
 .nav > .nav-header > .nav-title > img{
  /* find suitable value for you */
 display: block;
-max-width: 12vw ; 
-padding-top: 5%;
+max-width: 10vw ; 
+padding: 6%;
 
  
 }
@@ -1604,9 +1603,12 @@ padding-top: 5%;
 }
 
 .nav > .nav-links {
-  display: inline;
-  float: right;
-  font-size: 18px;
+  display: flex;
+ 
+  align-items: center;
+ 
+  font-size: 20px;
+  
 }
 
 .nav > .nav-links > a {
@@ -1614,7 +1616,8 @@ padding-top: 5%;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
   color: #efefef;
-  font-size: small;
+  font-size: larger;
+  font-weight: 500;
 }
 
 .nav > .nav-links > a:hover {
