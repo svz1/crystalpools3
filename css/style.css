@@ -18,6 +18,7 @@ body {
   background: #fff;
 }
 
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -69,6 +70,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 ::-webkit-selection {
+
   color: #fff;
   background: #87CEEB;
 }
@@ -1614,10 +1616,12 @@ padding: 6%;
 .nav > .nav-links > a {
   display: inline-block;
   padding: 13px 10px 13px 10px;
+  @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poppins&display=swap');
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   color: #efefef;
   font-size: larger;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .nav > .nav-links > a:hover {
