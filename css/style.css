@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   width: 100%;
 }
-.coverlay {
+.cooverlay {
   z-index: 0;
   position: absolute;
   bottom: 0;
@@ -400,7 +400,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-staff {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 30px; 
+  margin-left: auto;
+  margin-right: auto;
 }
 .fh5co-staff img {
   width: 100px;
